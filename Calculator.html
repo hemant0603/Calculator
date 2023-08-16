@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="D:\Web Development\Calculator\Calculator.css">
+    <title>My Calculator</title>
+</head>
+
+<body>
+    <h1>
+        My Calculator
+    </h1>
+    <div class="button">
+
+        <form name="myform">
+            <input type="text" name="display">
+            <input type="button" id="clear" value="C" onclick="ac()">
+            <br>
+            <input type="button" value="7" onclick="myclick('7')">
+            <input type="button" value="8" onclick="myclick('8')">
+            <input type="button" value="9" onclick="myclick('9')">
+            <input type="button" value="/" onclick="myclick('/')">
+           
+            <br>
+            <input type="button" value="4" onclick="myclick('4')">
+            <input type="button" value="5" onclick="myclick('5')">
+            <input type="button" value="6" onclick="myclick('6')">
+            <input type="button" value="*" onclick="myclick('*')">
+            
+            <br>
+            <input type="button" value="1" onclick="myclick('1')">
+            <input type="button" value="2" onclick="myclick('2')">
+            <input type="button" value="3" onclick="myclick('3')">
+            <input type="button" value="-" onclick="myclick('-')">
+           
+            <br>
+            <input  type="button" value="." style="width: 72px; height: 45px;" onclick="myclick('.')">
+            <input  type="button" value="0" style="width: 72px; height: 45px;" onclick="myclick('0')">
+            <input  type="button" value="+" style="width: 72px; height: 45px;" onclick="myclick('+')">
+           
+            <br>
+            <input type="button" id="equal" value="=" onclick="calculate()">
+            <br>
+
+        </form>
+    </div>
+    <script src="D:\Web Development\Calculator\Calculator.js"></script>
+</body>
+
+</html>
